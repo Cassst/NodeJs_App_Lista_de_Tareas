@@ -7,7 +7,7 @@ Hoja de Inicio donde podreamos realizar las distintas opciones
 
 ![1](https://user-images.githubusercontent.com/68193335/144748708-6a9d8ec1-81fc-4d7b-a35c-e94af8b3aab1.jpg)
 
-##Agregar Tareas
+#Agregar Tareas
 
 Demostración de la función de agregar tareas
 
@@ -15,13 +15,13 @@ Demostración de la función de agregar tareas
 
 ![3](https://user-images.githubusercontent.com/68193335/144748711-2bb75691-9e9d-4135-bbb9-5906fb478dcc.jpg)
 
-##Editar Tareas
+#Editar Tareas
 
 Al seleccionar una tarea podremos modificarla conociendo su "_id"
 
 ![4](https://user-images.githubusercontent.com/68193335/144748713-bdb4e422-140d-4f1f-8dca-e4a4121a5bd3.jpg)
 
-##Elmiminar tareas
+#Elmiminar tarea
 
 Al seleccionar el item podremos eliminar una tarea
 
