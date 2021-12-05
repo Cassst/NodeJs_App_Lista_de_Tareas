@@ -11,10 +11,10 @@ app.use(cors());
 app.use('/todos', todosRoutes)
 const mongodb = 'mongodb+srv://user:123@listatareas.1gnx6.mongodb.net/listatareas?retryWrites=true&w=majority';
 
-app.get('/', (req,res) =>{
-    res.send('Bienvenido al servidor')
+app.get('/', (req, res) => {
+    res.send('Welcome to server')
 })
 
 const PORT = process.env.PORT || 5000;
 
-mongoose.connect(mongodb, {useNewUrlParser: true, useUnifiedTopology: true }).then(() => app.listen(PORT, () => console.log('Servidor corriendo en el puerto ' + PORT))).catch((error) => console.log(error));
+mongoose.connect(mongodb, { useUnifiedTopology: true, useNewUrlParser: true }).then(() => app.listen(5000, () => console.log(`server is running on port ${PORT}`))).catch(err => console.log(err))
